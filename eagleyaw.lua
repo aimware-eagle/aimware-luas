@@ -35,7 +35,7 @@ function CreateMove(cmd)
             gui.SetValue(slidewalk, state and true or false)
         end
 
-        if velocity <= 3 then
+        if velocity <= 3 and velocity < 69 then
             gui.SetValue(rotateb, 33)
             gui.SetValue(rotatel, -33)
             gui.SetValue(rotater, 33)
@@ -43,7 +43,7 @@ function CreateMove(cmd)
             gui.SetValue(lbyleft, 0)
             gui.SetValue(lbyright, 0)
             gui.SetValue(fakelag, 3)
-        elseif velocity >= 70 then
+        elseif velocity >= 70 and velocity < 129 then
             gui.SetValue(rotateb, 23)
             gui.SetValue(rotatel, -23)
             gui.SetValue(rotater, 23)
@@ -79,7 +79,7 @@ function CreateMove(cmd)
             gui.SetValue(slidewalk, state and true or false)
         end
 
-        if velocity <= 3 then
+        if velocity <= 3 and velocity < 69 then
             gui.SetValue(rotateb, 33)
             gui.SetValue(rotatel, -33)
             gui.SetValue(rotater, 33)
@@ -87,7 +87,7 @@ function CreateMove(cmd)
             gui.SetValue(lbyleft, 0)
             gui.SetValue(lbyright, 0)
             gui.SetValue(fakelag, 3)
-        elseif velocity >= 70 then
+        elseif velocity >= 70 and velocity < 129 then
             gui.SetValue(rotateb, 23)
             gui.SetValue(rotatel, -23)
             gui.SetValue(rotater, 23)
