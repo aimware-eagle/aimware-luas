@@ -23,7 +23,6 @@ end
 function scopeoverlay(lol)
     local localplayer = entities.GetLocalPlayer()
     local is_scoped = localplayer:GetPropBool("m_bIsScoped")
-    local wpn = localplayer:GetPropEntity("m_hActiveWeapon")
 
     if is_scoped == false then return end
     if not cscope:GetValue() then return end
