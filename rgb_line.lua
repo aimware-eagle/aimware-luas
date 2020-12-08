@@ -52,7 +52,7 @@ function UI()
 end 
 UI();
 
-callbacks.Register("DrawModel", "isupporttransright", rgbline);
+callbacks.Register("Draw", "isupporttransright", rgbline);
 
 -- lua by https://aimware.net/forum/user/63613
 -- stack overflow for rgb cycle https://stackoverflow.com/questions/31784658/how-can-i-loop-through-all-rgb-combinations-in-rainbow-order-in-java cuz small brain
